@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseurl: 'http://localhost:8000/api',
+    baseURL: 'http://ava_reto_1.test/api',
 });
 
 // interceptor para aniadir el token jwt a todas las solicitudes
